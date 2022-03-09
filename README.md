@@ -1,4 +1,4 @@
-<h2 align="center">Hi 👋, Im Ashley!, </h2>
+<h2 align="center">Hi 👋, Im ashl3ycodes!, </h2>
 <h3 align="center">A freaky girl on the internet and a passionate to code</h3>
 <div align=right>
     <a href="#a-random-girl-on-the-internet-and-a-passionate-to-code">
@@ -8,7 +8,7 @@
         
 ```js
 import { Human } from "earth";
-const Ashley = new Human();
+const ashley = new Human();
 
 const data = {
 nicknames: ["ashl3y", "ashl3ycodes"],
@@ -44,5 +44,5 @@ contact: {
 },
 };
 
-Ashley.push(data);
+ashley.push(data);
 ```
