@@ -1,5 +1,11 @@
-<img align="center" src="/github-metrics.svg" alt="Metrics" width="400">
-
+<h2 align="center">Hi 👋, Im Sofizzly!, </h2>
+<h3 align="center">A freaky girl on the internet and a passionate to code</h3>
+<div align=right>
+    <a href="#a-random-girl-on-the-internet-and-a-passionate-to-code">
+      <img width="450" align="right" src="/github-metrics.svg" alt="Metrics"/>
+    </a>
+</div> 
+        
 ```js
 import { Human } from "earth";
 const Ashley = new Human();
