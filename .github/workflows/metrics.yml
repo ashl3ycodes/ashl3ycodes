@@ -64,10 +64,11 @@ jobs:
           plugin_repositories_batch: 100
           # Stackoverflow plugin
           plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 18423213
           plugin_stackoverflow_limit: 2
           plugin_stackoverflow_lines: 4
           plugin_stackoverflow_lines_snippet: 2
-          plugin_stackoverflow_sections: answers-top, questions-recent
+          plugin_stackoverflow_sections: answers-top, questions-recent, questions-top, answers-recent
           # Starred Topics
           plugin_topics: yes
           plugin_topics_limit: 15
