@@ -58,6 +58,7 @@ jobs:
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_time_range: short
           plugin_music_top_type: tracks
+          plugin_music_limit: 1
           # Starred Topics
           plugin_topics: yes
           plugin_topics_limit: 15
