@@ -1,4 +1,4 @@
-<h2 align="center">Hi 👋, Im Sofizzly!, </h2>
+<h2 align="center">Hi 👋, Im Ashley!, </h2>
 <h3 align="center">A freaky girl on the internet and a passionate to code</h3>
 <div align=right>
     <a href="#a-random-girl-on-the-internet-and-a-passionate-to-code">
