@@ -10,7 +10,9 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+    - name: Metrics
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
           # The following scopes are required:
@@ -20,6 +22,7 @@ jobs:
           #  - read:user (for user related data)
           #  - repo      (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics.svg
           # Options
           user: ashl3ycodes
           template: classic
