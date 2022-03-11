@@ -63,10 +63,10 @@ jobs:
           # plugin_music_top_type: tracks
           # plugin_music_limit: 1
           # Starred Topics
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: icons
-          plugin_topics_sort: stars
+          #plugin_topics: yes
+          #plugin_topics_limit: 15
+          #plugin_topics_mode: icons
+          #plugin_topics_sort: stars
           # Wakatime
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
