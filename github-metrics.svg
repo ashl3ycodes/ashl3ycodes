@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -83,7 +83,7 @@ I'm also programming a discord bot</div>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            55 Commits
+                            61 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -167,9 +167,9 @@ I'm also programming a discord bot</div>
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="344.3280327916509" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="344.3280327916509" y="0" width="75.30713102125063" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="419.6351638129015" y="0" width="40.36483618709846" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="344.5734483410668" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="344.5734483410668" y="0" width="75.03294593375904" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="419.60639427482585" y="0" width="40.39360572517418" height="8" fill="#e34c26"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -181,7 +181,7 @@ I'm also programming a discord bot</div>
                                 JavaScript
                             </div>
                             <small>
-                                <div>74.85%</div>
+                                <div>74.91%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -192,7 +192,7 @@ I'm also programming a discord bot</div>
                                 HTML
                             </div>
                             <small>
-                                <div>8.77%</div>
+                                <div>8.78%</div>
                             </small>
                         </div>
                     </section>
@@ -205,7 +205,7 @@ I'm also programming a discord bot</div>
                                 CSS
                             </div>
                             <small>
-                                <div>16.37%</div>
+                                <div>16.31%</div>
                             </small>
                         </div>
                     </section>
