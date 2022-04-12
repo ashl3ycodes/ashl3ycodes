@@ -39,7 +39,7 @@ tools: [
     "Adobe Photoshop"
 ],
 contact: {
-    discord: "! AshƖɛყ‧˚₊ ♡#1333",
+    discord: "ashl3ycodes#1333",
     community: "[[REDACTED]]"
 },
 };
