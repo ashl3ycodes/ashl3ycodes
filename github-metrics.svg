@@ -83,7 +83,7 @@ I'm also programming a discord bot</div>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            70 Commits
+                            73 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -167,9 +167,9 @@ I'm also programming a discord bot</div>
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="350.5604744173217" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="350.5604744173217" y="0" width="71.14108398841539" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="421.7015584057371" y="0" width="38.29844159426286" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="350.49251362726835" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="350.49251362726835" y="0" width="71.18526185054854" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="421.6777754778169" y="0" width="38.32222452218313" height="8" fill="#e34c26"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -181,7 +181,7 @@ I'm also programming a discord bot</div>
                                 JavaScript
                             </div>
                             <small>
-                                <div>76.21%</div>
+                                <div>76.19%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -205,7 +205,7 @@ I'm also programming a discord bot</div>
                                 CSS
                             </div>
                             <small>
-                                <div>15.47%</div>
+                                <div>15.48%</div>
                             </small>
                         </div>
                     </section>
