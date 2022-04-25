@@ -40,7 +40,8 @@ tools: [
 ],
 contact: {
     discord: "ashl3ycodes#1333",
-    community: "[[REDACTED]]"
+    community: "[[REDACTED]]",
+    discordBot: "soon..."
 },
 };
 
