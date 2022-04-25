@@ -35,7 +35,7 @@ jobs:
           # plugin_habits_days: 14
           # plugin_habits_from: 200
           # Introduction
-          plugin_introduction: no
+          plugin_introduction: yes
           plugin_introduction_title: yes
           # Isometric calendar
           plugin_isocalendar: yes
@@ -72,4 +72,4 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_days: 7
           plugin_wakatime_limit: 5
-          plugin_wakatime_sections: time
+          plugin_wakatime_sections: time, projects, os
