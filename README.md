@@ -41,7 +41,6 @@ tools: [
 contact: {
     discord: "ashl3ycodes#1333",
     community: "[[REDACTED]]",
-    discordBot: "soon..."
 },
 };
 
