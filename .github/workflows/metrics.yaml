@@ -35,7 +35,7 @@ jobs:
           # plugin_habits_days: 14
           # plugin_habits_from: 200
           # Introduction
-          plugin_introduction: yes
+          plugin_introduction: no
           plugin_introduction_title: yes
           # Isometric calendar
           plugin_isocalendar: yes
