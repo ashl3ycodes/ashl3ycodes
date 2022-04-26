@@ -32,6 +32,8 @@ tools: [
 ],
 contact: {
     discord: "ashl3ycodes#1333",
+    community: "[[REDACTED]]"
+    twitter: "@ashl3ycodes"
 },
 };
 
