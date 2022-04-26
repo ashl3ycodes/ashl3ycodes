@@ -68,8 +68,8 @@ jobs:
           #plugin_topics_mode: icons
           #plugin_topics_sort: stars
           # Wakatime
-          plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          plugin_wakatime_days: 7
-          plugin_wakatime_limit: 5
-          plugin_wakatime_sections: time
+          # plugin_wakatime: yes
+          # plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          # plugin_wakatime_days: 7
+          # plugin_wakatime_limit: 5
+          # plugin_wakatime_sections: time
