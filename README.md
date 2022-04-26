@@ -29,6 +29,7 @@ tools: [
     "CLion",
     "Pycharm",
     "Rider",
+    "Figma",
 ],
 contact: {
     discord: "ashl3ycodes#1333",
