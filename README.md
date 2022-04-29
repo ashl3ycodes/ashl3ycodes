@@ -1,42 +1,29 @@
+```console
+ashl3ycodes@readme ~ $ neofetch
 
-<h2 align="center">Hi 👋, Im ashl3y!, </h2>
-<h3 align="center">A freaky girl on the internet and a passionate to code</h3>
-<div align=right>
-    <a href="#a-random-girl-on-the-internet-and-a-passionate-to-code">
-      <img width="430" align="right" src="/github-metrics.svg" alt="Metrics"/>
-    </a>
-</div> 
-
-```js
-import { Human } from "earth";
-const ashley = new Human();
-
-const data = {
-nicknames: ["ashl3y", "ashl3ycodes"],
-pronouns: "She" | "Her",
-loves: ["Headpats", "Code", "Frogs", "Raccoons"],
-skills: {
-    webDevelopment: {
-        frontEnd: ["HTML", "CSS", "Javascript"],
-        backEnd: ["Node.js", "MongoDB"]
-    },
-},
-tools: [
-    "VS Code",
-    "Intellij",
-    "WebStorm",
-    "PhpStorm",
-    "CLion",
-    "Pycharm",
-    "Rider",
-    "Figma",
-],
-contact: {
-    discord: "ashl3ycodes#1333",
-    community: "[[REDACTED]]"
-    twitter: "@ashl3ycodes"
-},
-};
-
-ashley.push(data);
+                   .~vVeZNgQBBBQQg9Ze1v~.                      
+              `^}%B@@@@@@@@@@@@@@@@@@@@@@8%}=`                 
+           -Lq#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#qr-              ashl3ycodes@readme
+        .V0@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@0?.           -------------------
+      _l#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#l`         OS: Human OS[Custom]
+    `o@@@@@@@@v^r}P0@@@@@@@@@@@@@@@@@@@@ghlr<r@@@@@@@#o`       Uptime: 17 years
+   ;0@@@@@@@@0      .?szL?*;!!!!~*|]Vox_      P@@@@@@@@0.      Pronouns: She | Her
+  ?@@@@@@@@@@q                                z@@@@@@@@@#?     Packages: JS, Python, C++, C#, 3 others...
+ :@@@@@@@@@@@Q                                R@@@@@@@@@@@"    Likes: Code, Frogs, Raccons, Headpats
+_g@@@@@@@@@@2-                                `M@@@@@@@@@@0    Tools: JetBrainsIDEs, VSCode, 2 others... 
+a@@@@@@@@@@2                                    v@@@@@@@@@@;   Skills: webFrontEndDev, webBackEndDev
+#@@@@@@@@@@_                                     @@@@@@@@@@y   Home: /home/ashl3ycodes
+@@@@@@@@@@@.                                     @@@@@@@@@@%   
+#@@@@@@@@@@r                                    :@@@@@@@@@@s   contact information
+W@@@@@@@@@@Q`                                  _0@@@@@@@@@@*   -------------------
+~#@@@@@@@@@@9!                                ,Q@@@@@@@@@@#    Discord: ashl3ycodes#1333
+ ;@@@@@@@@@@@@6^.                          `\p@@@@@@@@@@@@~    Twitter: @ashl3ycodes
+  n@@@@@PlVd@@@@#6Vv~_`              `_!?zd#@@@@@@@@@@@@#n     Github: ashl3ycodes
+   2#@@@#hr _Y#@@@@@@@#q`          `X#@@@@@@@@@@@@@@@@@#~      
+    .d@@@@@D` .n6#@@@#V`             Q@@@@@@@@@@@@@@@@d.       actual projects
+      x0@@@@0^   `__-                M@@@@@@@@@@@@@@0=         ------------------
+        =p#@@@#%Il]]L1,              M@@@@@@@@@@@#V=           Portfolio: ~/ashl3ycodes.github.io
+          `vR#@@@@@@@@?              M@@@@@@@@#Pv`             Lihltx[private]: ~/Lyhltx
+              "Lf8@@@@v              q@@@#Qa?:                 
+                  -!v|`              _?v!`                     
 ```
