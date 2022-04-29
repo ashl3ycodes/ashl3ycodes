@@ -23,7 +23,7 @@ W@@@@@@@@@@Q`                                  _0@@@@@@@@@@*   -----------------
     .d@@@@@D` .n6#@@@#V`             Q@@@@@@@@@@@@@@@@d.       actual projects
       x0@@@@0^   `__-                M@@@@@@@@@@@@@@0=         ------------------
         =p#@@@#%Il]]L1,              M@@@@@@@@@@@#V=           Portfolio: ~/ashl3ycodes.github.io
-          `vR#@@@@@@@@?              M@@@@@@@@#Pv`             Lihltx[private]: ~/Lyhltx
+          `vR#@@@@@@@@?              M@@@@@@@@#Pv`             Lyhltx[private]: ~/Lyhltx
               "Lf8@@@@v              q@@@#Qa?:                 
                   -!v|`              _?v!`                     
 ```
