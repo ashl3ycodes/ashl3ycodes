@@ -2,18 +2,21 @@
 	<h1>¡Hi <a href="https://github.com/ashl3ycodes/ashl3ycodes#hi--im-ashley"><img src="./src/images/emojis/wave.gif" width="24" height="24" alt="👋"></a> I'm Ashley!</h1>
 	<h3>A random girl on the internet and a passionate to code.</h3>
 </div>
-
+<br>
 <div align="center" style="text-align: center">
 	<!-- https://github.com/lowlighter/metrics -->
 	<a href="https://github.com/ashl3ycodes/ashl3ycodes#a-random-girl-on-the-internet-and-a-passionate-to-code">
-		<img align="center" width="47%" src="./general-metrics.svg" alt=""/>
+		<img align="center" width="47%" src="./general-metrics.svg" alt="Metrics"/>
 	</a>
 	<a href="https://github.com/ashl3ycodes/ashl3ycodes#a-random-girl-on-the-internet-and-a-passionate-to-code">
-		<img align="right" width="47%" src="./social-metrics.svg" alt=""/>
+		<img align="right" width="47%" src="./social-metrics.svg" alt="Metrics"/>
 	</a>
 </div>
-
-<div align="center" style="text-align: center">
+<br>
+<br>
+<br>
+<br>
+<div align="center" style="display: block">
 	<!-- https://github.com/tandpfun/skill-icons#readme -->
 	<h3 align="center">Languages, technologies and tools that I usually use.</h3>
 	<a href="https://github.com/ashl3ycodes/ashl3ycodes#languages-technologies-and-tools-that-i-usually-use">
