@@ -54,7 +54,7 @@ jobs:
           template: classic
           base: ""
           config_order: achievements, people, wakatime, isocalendar
-          config_padding: 0, 165
+          config_padding: 0, 120
           config_timezone: America/Mexico_City
           # Achievements Plugin
           plugin_achievements: yes
