@@ -69,7 +69,7 @@ jobs:
           plugin_people_types: followers, following
           # Isometric Calendar
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
           # Wakatime Plugin
           plugin_wakatime: yes
           plugin_wakatime_days: 7
