@@ -16,8 +16,6 @@
 
 <div align="center" style="display: block">
 	<!-- https://github.com/tandpfun/skill-icons#readme -->
-<br />
-<br />
 	<h3 align="center">Languages, technologies and tools that I usually use.</h3>
 	<a href="https://archlinux.org/">
 		<img src="./src/images/icons/archlinux.png" height="24" width="24" alt="Arch Linux">
