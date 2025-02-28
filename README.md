@@ -1,7 +1,7 @@
 <div align="center" style="text-align: center">
 	<h1>¡Hi <a href="https://github.com/ashl3ycodes#"><img src="./src/images/emojis/wave.gif" width="28" height="27" alt="👋"></a> I'm Ashley!</h1>
 	<h3>A random girl on the internet and a passionate to code.</h3>
-	<h6>(CS student, monster energy addict, eepy, and a f̶r̶i̶e̶n̶d̶l̶y coding witch)</h6>
+	<h6>(Software Engineering student, monster energy addict, gamer, eepy princess, and your f̶r̶i̶e̶n̶d̶l̶y coding witch)</h6>
 </div>
 
 <div align="center" style="text-align: center">
