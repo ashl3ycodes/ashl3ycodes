@@ -15,7 +15,6 @@
 </div>
 
 <div align="center" style="display: block">
-	<br/>
 	<!-- https://github.com/tandpfun/skill-icons#readme -->
 	<h3 align="center">Languages, technologies and tools that I usually use.</h3>
 	<a href="https://archlinux.org/">
