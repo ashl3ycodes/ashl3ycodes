@@ -41,9 +41,6 @@
 	<a href="https://discord.js.org/docs/">
 		<img src="./src/images/icons/djs.png" height="24" width="24" alt="discord.js">
 	</a>
-	<a href="https://www.figma.com/">
-		<img src="https://skillicons.dev/icons?i=figma&theme=dark&perline=1" height="24" width="24" alt="Figma"/>
-	</a>
 	<a href="https://git-scm.com/">
 		<img src="https://skillicons.dev/icons?i=git&theme=dark&perline=1" height="24" width="24" alt="Git">
 	</a>
