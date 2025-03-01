@@ -19,94 +19,94 @@
 	<!-- https://github.com/tandpfun/skill-icons#readme -->
 	<h3 align="center">Languages, technologies and tools that I usually use.</h3>
 	<a href="https://archlinux.org/">
-		<img src="./src/images/icons/archlinux.png" height="32" width="32" alt="Arch Linux">
+		<img src="./src/images/icons/archlinux.png" height="48" width="48" alt="Arch Linux">
 	</a>
 	<a href="https://www.gnu.org/software/bash/">
-		<img src="./src/images/icons/bash.png" height="32" width="32" alt="Bash"/>
+		<img src="./src/images/icons/bash.png" height="48" width="48" alt="Bash"/>
 	</a>
 	<a href="https://www.gnu.org/software/gnu-c-manRual/gnu-c-manual.html">
-		<img src="https://skillicons.dev/icons?i=c&theme=dark&perline=1" height="32" width="32" alt="C"/>
+		<img src="https://skillicons.dev/icons?i=c&theme=dark&perline=1" height="48" width="48" alt="C"/>
 	</a>
 	<a href="https://isocpp.org/">
-		<img src="https://skillicons.dev/icons?i=cpp&theme=dark&perline=1" height="32" width="32" alt="C++"/>
+		<img src="https://skillicons.dev/icons?i=cpp&theme=dark&perline=1" height="48" width="48" alt="C++"/>
 	</a>
 	<a href="https://www.jetbrains.com/clion/">
-		<img src="./src/images/icons/clion.png" height="32" width="32" alt="CLion"/>
+		<img src="./src/images/icons/clion.png" height="48" width="48" alt="CLion"/>
 	</a>
 	<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-		<img src="https://skillicons.dev/icons?i=css&theme=dark&perline=1" height="32" width="32" alt="CSS"/>
+		<img src="https://skillicons.dev/icons?i=css&theme=dark&perline=1" height="48" width="48" alt="CSS"/>
 	</a>
 	<a href="https://discord.com/">
-		<img src="https://skillicons.dev/icons?i=discord&theme=dark&perline=1" height="32" width="32" alt="Discord"/>
+		<img src="https://skillicons.dev/icons?i=discord&theme=dark&perline=1" height="48" width="48" alt="Discord"/>
 	</a>
 	<a href="https://discord.js.org/docs/">
-		<img src="./src/images/icons/djs.png" height="32" width="32" alt="discord.js">
+		<img src="./src/images/icons/djs.png" height="48" width="48" alt="discord.js">
 	</a>
 	<a href="https://git-scm.com/">
-		<img src="https://skillicons.dev/icons?i=git&theme=dark&perline=1" height="32" width="32" alt="Git">
+		<img src="https://skillicons.dev/icons?i=git&theme=dark&perline=1" height="48" width="48" alt="Git">
 	</a>
 	<a href="https://github.com">
-		<img src="./src/images/icons/github.png" height="32" width="32" alt="Github"/>
+		<img src="./src/images/icons/github.png" height="48" width="48" alt="Github"/>
 	</a>
 	<a href="https://www.heroku.com/">
-		<img src="https://skillicons.dev/icons?i=heroku&theme=dark&perline=1" height="32" width="32" alt="Heroku">
+		<img src="https://skillicons.dev/icons?i=heroku&theme=dark&perline=1" height="48" width="48" alt="Heroku">
 	</a>
 	<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-		<img src="https://skillicons.dev/icons?i=html&theme=dark&perline=1" height="32" width="32" alt="HTML"/>
+		<img src="https://skillicons.dev/icons?i=html&theme=dark&perline=1" height="48" width="48" alt="HTML"/>
 	</a>
 	<a href="https://www.jetbrains.com/idea/">
-		<img src="./src/images/icons/intellij.png" height="32" width="32" alt="IntelliJ">
+		<img src="./src/images/icons/intellij.png" height="48" width="48" alt="IntelliJ">
 	</a>
 	<a href="https://www.java.com/en/">
-		<img src="./src/images/icons/java.png" height="32" width="32" alt="Java">
+		<img src="./src/images/icons/java.png" height="48" width="48" alt="Java">
 	</a>
 	<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-		<img src="https://skillicons.dev/icons?i=js&theme=dark&perline=1" height="32" width="32" alt="JavaScript"/>
+		<img src="https://skillicons.dev/icons?i=js&theme=dark&perline=1" height="48" width="48" alt="JavaScript"/>
 	</a>
 	<a href="https://www.linux.org/pages/download/">
-		<img src="https://skillicons.dev/icons?i=linux&theme=dark&perlinee=1" height="32" width="32" alt="Linux">
+		<img src="https://skillicons.dev/icons?i=linux&theme=dark&perlinee=1" height="48" width="48" alt="Linux">
 	</a>
 	<a href="https://www.markdownguide.org/">
-		<img src="./src/images/icons/markdown.png" height="32" width="32" alt="Markdown">
+		<img src="./src/images/icons/markdown.png" height="48" width="48" alt="Markdown">
 	</a>
 	<a href="https://www.mongodb.com/">
-		<img src="./src/images/icons/mongodb.png" height="32" width="32" alt="MongoDB">
+		<img src="./src/images/icons/mongodb.png" height="48" width="48" alt="MongoDB">
 	</a>
 	<a href="https://nodejs.org/">
-		<img src="https://skillicons.dev/icons?i=nodejs&theme=dark&perline=1" height="32" width="32" alt="NodeJS">
+		<img src="https://skillicons.dev/icons?i=nodejs&theme=dark&perline=1" height="48" width="48" alt="NodeJS">
 	</a>
 	<a href="https://www.adobe.com/products/photoshop.html">
-		<img src="https://skillicons.dev/icons?i=ps&theme=dark&perline=1" height="32" width="32" alt="Photoshop">
+		<img src="https://skillicons.dev/icons?i=ps&theme=dark&perline=1" height="48" width="48" alt="Photoshop">
 	</a>
 	<a href="https://www.adobe.com/products/premiere.html">
-		<img src="https://skillicons.dev/icons?i=pr&theme=dark&perline=1" height="32" width="32" alt="Premiere Pro">
+		<img src="https://skillicons.dev/icons?i=pr&theme=dark&perline=1" height="48" width="48" alt="Premiere Pro">
 	</a>
 	<a href="https://www.jetbrains.com/pycharm/">
-		<img src="./src/images/icons/pycharm.png" height="32" width="32" alt="PyCharm">
+		<img src="./src/images/icons/pycharm.png" height="48" width="48" alt="PyCharm">
 	</a>
 	<a href="https://www.python.org/">
-		<img src="https://skillicons.dev/icons?i=python&theme=dark&perline=1" height="32" width="32" alt="Python">
+		<img src="https://skillicons.dev/icons?i=python&theme=dark&perline=1" height="48" width="48" alt="Python">
 	</a>
 	<a href="https://react.dev/">
-		<img src="https://skillicons.dev/icons?i=react&theme=dark&perline=1" height="32" width="32" alt="Python">
+		<img src="https://skillicons.dev/icons?i=react&theme=dark&perline=1" height="48" width="48" alt="Python">
 	</a>
 	<a href="https://regexr.com/">
-		<img src="https://skillicons.dev/icons?i=regex&theme=dark&perline=1" height="32" width="32" alt="Regex">
+		<img src="https://skillicons.dev/icons?i=regex&theme=dark&perline=1" height="48" width="48" alt="Regex">
 	</a>
 	<a href="https://www.sqlite.org/index.html">
-		<img src="./src/images/icons/sqlite.png" height="32" width="32" alt="SQLite">
+		<img src="./src/images/icons/sqlite.png" height="48" width="48" alt="SQLite">
 	</a>
 	<a href="https://stackoverflow.com">
-		<img src="./src/images/icons/stackoverflow.png" height="32" width="32" alt="stackoverflow">
+		<img src="./src/images/icons/stackoverflow.png" height="48" width="48" alt="stackoverflow">
 	</a>
 	<a href="https://www.typescriptlang.org/">
-		<img src="https://skillicons.dev/icons?i=ts&theme=dark&perline=1" height="32" width="32" alt="TypeScript">
+		<img src="https://skillicons.dev/icons?i=ts&theme=dark&perline=1" height="48" width="48" alt="TypeScript">
 	</a>
 	<a href="https://www.jetbrains.com/webstorm/">
-		<img src="./src/images/icons/webstorm.png" height="32" width="32" alt="WebStorm">
+		<img src="./src/images/icons/webstorm.png" height="48" width="48" alt="WebStorm">
 	</a>
 	<a href="https://www.microsoft.com/software-download/windows11">
-		<img src="./src/images/icons/windows.png" height="32" width="32" alt="WebStorm">
+		<img src="./src/images/icons/windows.png" height="48" width="48" alt="WebStorm">
 	</a>
 </div>
 
