@@ -12,7 +12,7 @@ jobs:
 
       - name: General
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: general-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -45,7 +45,7 @@ jobs:
 
       - name: Social
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: social-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
