@@ -15,15 +15,15 @@
 </div>
 
 ```js
-const ashley = new Human({
+const Ashley = new Human({
  name: "Ashley",
  pronouns: "She/Her",
 });
 
-Object.assign(ashley, {
+Object.assign(Ashley, {
  nicknames: ["ashl3y", "ashl3ycodes", "Anshurii"],
  likes: ["Code", "Sleep", "Monster Energy", "Videogames"],
- dislikes: ["Sleep", "Bugs", "Competitiveness"]
+ dislikes: ["Sleep", "Bugs", "Competitiveness"],
  skills: {
   webDevelopment: {
    frontEnd: ["CSS", "HTML", "JavaScript"],
@@ -42,9 +42,12 @@ Object.assign(ashley, {
   editing: {
    images: "Adobe Phothoshop"
   }
+ },
+ contact:{
+  discordUsername: "ashl3ycodes",
+  discordCommunity: null
  }
 });
-console.log(ashley);
 ```
 
 <div align="center" style="display: block">
@@ -109,9 +112,6 @@ console.log(ashley);
 	</a>
 	<a href="https://www.adobe.com/products/photoshop.html">
 		<img src="https://skillicons.dev/icons?i=ps&theme=dark&perline=1" height="24" width="24" alt="Photoshop">
-	</a>
-	<a href="https://www.adobe.com/products/premiere.html">
-		<img src="https://skillicons.dev/icons?i=pr&theme=dark&perline=1" height="24" width="24" alt="Premiere Pro">
 	</a>
 	<a href="https://www.jetbrains.com/pycharm/">
 		<img src="./src/images/icons/pycharm.png" height="24" width="24" alt="PyCharm">
