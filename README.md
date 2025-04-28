@@ -4,15 +4,47 @@
 	<h6>(Software Engineering student, monster energy addict, gamer, eepy princess, and your f̶r̶i̶e̶n̶d̶l̶y coding witch)</h6>
 </div>
 
-<div align="center" style="text-align: center">
+<div align="right" style="text-align: right">
 	<!-- https://github.com/lowlighter/metrics -->
 	<a href="https://github.com/ashl3ycodes#">
-		<img align="center" width="47%" src="./general-metrics.svg" alt="Metrics"/>
-	</a>
+		<img align="right" width="47%" src="./general-metrics.svg" alt="Metrics"/>
+	<!-- </a>
 	<a href="https://github.com/ashl3ycodes#">
 		<img align="right" width="47%" src="./social-metrics.svg" alt="Metrics"/>
-	</a>
+	</a> -->
 </div>
+
+```js
+const ashley = new Human({
+  name: "Ashley",
+  pronouns: "She/Her",
+});
+
+Object.assign(ashley, {
+  nicknames: ["ashl3y", "ashl3ycodes", "Anshurii"],
+  likes: ["Code", "Sleep", "Monster Energy", "Videogames"],
+  dislikes: ["Sleep", "Bugs", "Competitiveness", "Bittersweet food"]
+  skills: {
+    webDevelopment: {
+      frontEnd: ["CSS", "HTML", "JavaScript"],
+      backEnd: ["JavaScript", "MongoDB", "Node.js", "TypeScript"]
+    },
+    softwareDevelopment: ["C", "C++", "Bash", "Java", "Python"],
+    botDevelopment: ["Discord.js", "JavaScript", "MongoDB", "Node.js", "SQLite", "TypeScript"],
+  },
+  tools: {
+    ides: ["CLion", "IntelliJ", "PyCharm", "WebStorm"],
+    software: ["Git", "GitHub"],
+    os: ["Linux", "Windows",
+      {current: ["Endeavour OS", "Windows 11"]}
+    ],
+    editing: {
+	images: "Adobe Phothoshop"
+    }
+  }
+});
+console.log(ashley);
+```
 
 <div align="center" style="display: block">
 	<!-- https://github.com/tandpfun/skill-icons#readme -->
