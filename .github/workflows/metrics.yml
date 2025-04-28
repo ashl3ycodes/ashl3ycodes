@@ -45,7 +45,7 @@ jobs:
 
       - name: Social
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: social-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
