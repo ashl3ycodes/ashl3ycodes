@@ -16,32 +16,33 @@
 
 ```js
 const ashley = new Human({
-  name: "Ashley",
-  pronouns: "She/Her",
+ name: "Ashley",
+ pronouns: "She/Her",
 });
 
 Object.assign(ashley, {
-  nicknames: ["ashl3y", "ashl3ycodes", "Anshurii"],
-  likes: ["Code", "Sleep", "Monster Energy", "Videogames"],
-  dislikes: ["Sleep", "Bugs", "Competitiveness", "Bittersweet food"]
-  skills: {
-    webDevelopment: {
-      frontEnd: ["CSS", "HTML", "JavaScript"],
-      backEnd: ["JavaScript", "MongoDB", "Node.js", "TypeScript"]
-    },
-    softwareDevelopment: ["C", "C++", "Bash", "Java", "Python"],
-    botDevelopment: ["Discord.js", "JavaScript", "MongoDB", "Node.js", "SQLite", "TypeScript"],
+ nicknames: ["ashl3y", "ashl3ycodes", "Anshurii"],
+ likes: ["Code", "Sleep", "Monster Energy", "Videogames"],
+ dislikes: ["Sleep", "Bugs", "Competitiveness"]
+ skills: {
+  webDevelopment: {
+   frontEnd: ["CSS", "HTML", "JavaScript"],
+   backEnd: ["Node.js"]
   },
-  tools: {
-    ides: ["CLion", "IntelliJ", "PyCharm", "WebStorm"],
-    software: ["Git", "GitHub"],
-    os: ["Linux", "Windows",
-      {current: ["Endeavour OS", "Windows 11"]}
-    ],
-    editing: {
-	images: "Adobe Phothoshop"
-    }
+  softwareDevelopment: ["C", "C++", "Bash", "Java",
+                         "Python"],
+  botDevelopment: ["Discord.js", "MongoDB", "SQLite"],
+ },
+ tools: {
+  ides: ["CLion", "IntelliJ", "PyCharm", "WebStorm"],
+  software: ["Git", "GitHub"],
+  os: ["Linux", "Windows",
+   {current: ["Endeavour OS", "Windows 11"]}
+  ],
+  editing: {
+   images: "Adobe Phothoshop"
   }
+ }
 });
 console.log(ashley);
 ```
