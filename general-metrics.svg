@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="991" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="933" class="">
     <defs>
         <style/>
     </defs>
@@ -42,7 +42,7 @@
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                 </g>
                             </svg>
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            86 Commits
+                            87 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -164,26 +164,6 @@
                                     <div class="commit">
                                         <div class="sha">#50b3321</div>
                                         <div class="message">Update README.md (Removed social metrics)</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">ashl3ycodes/ashl3ycodes</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#208b0cd</div>
-                                        <div class="message">Update metrics.yml</div>
                                     </div>
                                 </div>
                             </section>
@@ -311,16 +291,16 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 79.9kb of code in 58 edited files across 45 commits</small>
+                <small>estimation from 79.9kb of code in 59 edited files across 46 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="39.63413093463375" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="39.63413093463375" y="0" width="26.250347424008893" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="65.88447835864265" y="0" width="11.617100841397782" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="77.50157920004042" y="0" width="382.49842079995955" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="39.622117254793" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="39.622117254793" y="0" width="26.242390563035187" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="65.86450781782818" y="0" width="11.613579529667332" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="77.47808734749553" y="0" width="382.5219126525045" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
