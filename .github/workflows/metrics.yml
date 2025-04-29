@@ -20,7 +20,7 @@ jobs:
           user: ashl3ycodes
           template: classic
           base: header, activity, repositories
-          config_order: base.header, base.activity, activity, base.repositories, wakatime, languages
+          config_order: base.header, base.activity+community, activity, base.repositories, wakatime, languages
           config_padding: 0, 165
           config_timezone: America/Mexico_City
           # Recent Activity Plugin
