@@ -20,19 +20,9 @@ jobs:
           user: ashl3ycodes
           template: classic
           base: header, activity, repositories
-          config_order: base.header base.activity base.repositories activity wakatime languages
+          config_order: base.header, base.activity, base.repositories, activity, wakatime, languages
           config_padding: 0, 165
           config_timezone: America/Mexico_City
-          # Languages Plugin
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_other: true
-          plugin_languages_sections: most-used
-          plugin_languages_details: lines, bytes-size
-          plugin_languages_indepth: true
-          plugin_languages_categories: data, markup, programming
-          plugin_languages_recent_categories: data, markup, programming
-          plugin_languages_recent_days: 7
           # Recent Activity Plugin
           plugin_activity: yes
           plugin_activity_days: 7
@@ -50,6 +40,16 @@ jobs:
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: current
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          # Languages Plugin
+          plugin_languages: yes
+          plugin_languages_limit: 4
+          plugin_languages_other: true
+          plugin_languages_sections: most-used
+          plugin_languages_details: lines, bytes-size
+          plugin_languages_indepth: true
+          plugin_languages_categories: data, markup, programming
+          plugin_languages_recent_categories: data, markup, programming
+          plugin_languages_recent_days: 7
 
       - name: Social
         if: ${{ success() || failure() }}
