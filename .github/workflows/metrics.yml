@@ -20,7 +20,7 @@ jobs:
           user: ashl3ycodes
           template: classic
           base: header, activity, community, repositories
-          config_order: base.header, base.activity+community, base.repositories, gists, activity, languages
+          config_order: base.header, base.activity+community, base.repositories, activity, wakatime, languages
           config_padding: 0, 165
           config_timezone: America/Mexico_City
           # Languages Plugin
@@ -37,11 +37,19 @@ jobs:
           plugin_activity: yes
           plugin_activity_days: 7
           plugin_activity_filter: all
-          plugin_activity_limit: 3
+          plugin_activity_limit: 1
           plugin_activity_load: 300
           plugin_activity_visibility: all
-          # Gists Plugin
-          plugin_gists: yes
+          # Wakatime Plugin
+          plugin_wakatime: yes
+          plugin_wakatime_days: 7
+          plugin_wakatime_languages_other: yes
+          plugin_wakatime_limit: 5
+          plugin_wakatime_repositories_visibility: all
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_url: https://wakatime.com
+          plugin_wakatime_user: current
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
 
       - name: Social
         if: ${{ success() || failure() }}
