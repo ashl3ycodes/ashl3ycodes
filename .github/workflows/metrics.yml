@@ -19,8 +19,8 @@ jobs:
           # Template
           user: ashl3ycodes
           template: classic
-          base: header, activity, community, repositories
-          config_order: base.header, base.activity, base.repositories, activity, wakatime, languages
+          base: header, activity, repositories
+          config_order: base.header base.activity base.repositories activity wakatime languages
           config_padding: 0, 165
           config_timezone: America/Mexico_City
           # Languages Plugin
