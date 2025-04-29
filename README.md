@@ -36,8 +36,9 @@ Object.assign(Ashley, {
  tools: {
   ides: ["CLion", "IntelliJ", "PyCharm", "WebStorm"],
   software: ["Git", "GitHub"],
-  os: ["Linux", "Windows",
-   {current: ["Endeavour OS", "Windows 11"]}
+  os: ["Linux", "Windows", {
+   current: ["Endeavour OS", "Windows 11"]
+   }
   ],
   editing: {
    images: "Adobe Phothoshop"
