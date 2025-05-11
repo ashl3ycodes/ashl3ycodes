@@ -16,8 +16,8 @@
 
 ```js
 const {Universe} = require("/root/Simulations/Universe");
-const {MilkyWay} = Universe.Systems.Galaxies;
-const {Human} = MilkyWay.Systems.Solar.Planets.Earth.Entities;
+const {Galaxy} = Universe.Systems.Galaxies.MilkyWay;
+const {Human} = Systems.Solar.Planets.Earth.Entities;
 
 const Ashley = new Human({
  name: "Ashley",
