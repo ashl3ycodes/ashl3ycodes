@@ -47,8 +47,7 @@ Object.assign(Ashley, {
  },
  contact:{
   discord: {
-   username: "ashl3ycodes",
-   serverInvite: null
+   username: "ashl3ycodes"
   }
  }
 });
