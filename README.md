@@ -15,8 +15,8 @@
 </div>
 
 ```js
-const {Universe} = require("/root/Simulations/Universe");
-const {Galaxy} = Universe.Systems.Galaxies.MilkyWay;
+const Universe = require("/root/Simulations/Universe");
+const {Systems} = Universe.Systems.Galaxies.MilkyWay;
 const {Human} = Systems.Solar.Planets.Earth.Entities;
 
 const Ashley = new Human({
@@ -39,7 +39,7 @@ Object.assign(Ashley, {
  },
  tools: {
   ides: ["CLion", "IntelliJ","WebStorm"],
-  software: ["Git", "GitHub", "Adobe Photoshop"],
+  software: ["Adobe Photoshop", "Git", "GitHub"],
   os: {
    linux: "Endeavour OS",
    windows: "Windows 11"
