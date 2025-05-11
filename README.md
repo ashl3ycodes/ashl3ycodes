@@ -15,9 +15,13 @@
 </div>
 
 ```js
+const {Universe} = require("/root/Simulations/Universe");
+const {MilkyWay} = Universe.Systems.Galaxies;
+const {Human} = MilkyWay.Systems.Solar.Planets.Earth.Entities;
+
 const Ashley = new Human({
  name: "Ashley",
- pronouns: "She/Her",
+ pronouns: "She/Her"
 });
 
 Object.assign(Ashley, {
@@ -27,26 +31,25 @@ Object.assign(Ashley, {
  skills: {
   webDevelopment: {
    frontEnd: ["CSS", "HTML", "JavaScript"],
-   backEnd: ["Node.js"]
+   backEnd: ["JavaScript", "Node.js"]
   },
-  softwareDevelopment: ["C", "C++", "Bash", "Java",
-                         "Python"],
-  botDevelopment: ["Discord.js", "MongoDB", "SQLite"],
+  softwareDevelopment: ["C++", "Bash", "Java"],
+  botDevelopment: ["Discord.js", "JavaScript", "MongoDB",
+                   "Node.js", "SQLite"]
  },
  tools: {
-  ides: ["CLion", "IntelliJ", "PyCharm", "WebStorm"],
-  software: ["Git", "GitHub"],
-  os: ["Linux", "Windows", {
-   current: ["Endeavour OS", "Windows 11"]
-   }
-  ],
-  editing: {
-   images: "Adobe Phothoshop"
+  ides: ["CLion", "IntelliJ","WebStorm"],
+  software: ["Git", "GitHub", "Adobe Photoshop"],
+  os: {
+   linux: "Endeavour OS",
+   windows: "Windows 11"
   }
  },
  contact:{
-  discordUsername: "ashl3ycodes",
-  discordCommunity: null
+  discord: {
+   username: "ashl3ycodes",
+   serverInvite: null
+  }
  }
 });
 ```
@@ -59,9 +62,6 @@ Object.assign(Ashley, {
 	</a>
 	<a href="https://www.gnu.org/software/bash/">
 		<img src="./src/images/icons/bash.png" height="24" width="24" alt="Bash"/>
-	</a>
-	<a href="https://www.gnu.org/software/gnu-c-manRual/gnu-c-manual.html">
-		<img src="https://skillicons.dev/icons?i=c&theme=dark&perline=1" height="24" width="24" alt="C"/>
 	</a>
 	<a href="https://isocpp.org/">
 		<img src="https://skillicons.dev/icons?i=cpp&theme=dark&perline=1" height="24" width="24" alt="C++"/>
@@ -84,17 +84,11 @@ Object.assign(Ashley, {
 	<a href="https://github.com">
 		<img src="./src/images/icons/github.png" height="24" width="24" alt="Github"/>
 	</a>
-	<a href="https://www.heroku.com/">
-		<img src="https://skillicons.dev/icons?i=heroku&theme=dark&perline=1" height="24" width="24" alt="Heroku">
-	</a>
 	<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
 		<img src="https://skillicons.dev/icons?i=html&theme=dark&perline=1" height="24" width="24" alt="HTML"/>
 	</a>
 	<a href="https://www.jetbrains.com/idea/">
 		<img src="./src/images/icons/intellij.png" height="24" width="24" alt="IntelliJ">
-	</a>
-	<a href="https://www.java.com/en/">
-		<img src="./src/images/icons/java.png" height="24" width="24" alt="Java">
 	</a>
 	<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
 		<img src="https://skillicons.dev/icons?i=js&theme=dark&perline=1" height="24" width="24" alt="JavaScript"/>
@@ -113,12 +107,6 @@ Object.assign(Ashley, {
 	</a>
 	<a href="https://www.adobe.com/products/photoshop.html">
 		<img src="https://skillicons.dev/icons?i=ps&theme=dark&perline=1" height="24" width="24" alt="Photoshop">
-	</a>
-	<a href="https://www.jetbrains.com/pycharm/">
-		<img src="./src/images/icons/pycharm.png" height="24" width="24" alt="PyCharm">
-	</a>
-	<a href="https://www.python.org/">
-		<img src="https://skillicons.dev/icons?i=python&theme=dark&perline=1" height="24" width="24" alt="Python">
 	</a>
 	<a href="https://regexr.com/">
 		<img src="https://skillicons.dev/icons?i=regex&theme=dark&perline=1" height="24" width="24" alt="Regex">
