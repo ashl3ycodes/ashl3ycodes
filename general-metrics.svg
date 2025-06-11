@@ -38,7 +38,7 @@
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            99 Commits
+                            100 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -255,6 +255,11 @@
                                 <div class="bar" style="width: 78.264%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 <span class="value">98%</span>
                             </div>
+                            <div class="entry">
+                                <span class="name">Estructura de Datos</span>
+                                <div class="bar" style="width: 1.736%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">2%</span>
+                            </div>
                         </div>
                     </section>
                     <section class="column chart">
@@ -264,6 +269,16 @@
                                 <span class="name">C</span>
                                 <div class="bar" style="width: 35.088%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 <span class="value">44%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">C/C++</span>
+                                <div class="bar" style="width: 30.216%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">38%</span>
+                            </div>
+                            <div class="entry">
+                                <span class="name">CMake</span>
+                                <div class="bar" style="width: 14.696%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">18%</span>
                             </div>
                         </div>
                     </section>
@@ -279,16 +294,16 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 81.2kb of code in 70 edited files across 57 commits</small>
+                <small>estimation from 81.2kb of code in 71 edited files across 58 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="38.990802883420336" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="38.990802883420336" y="0" width="25.824260502112853" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="64.81506338553318" y="0" width="11.428535918468805" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="76.24359930400198" y="0" width="383.756400695998" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="38.979175985289004" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="38.979175985289004" y="0" width="25.81655981313056" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="64.79573579841956" y="0" width="11.425127975746733" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="76.22086377416629" y="0" width="383.77913622583367" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
