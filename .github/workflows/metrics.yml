@@ -21,7 +21,7 @@ jobs:
           template: classic
           base: header, activity, repositories
           config_order: base.header, base.activity+community, activity, base.repositories, wakatime, languages
-          config_padding: 0, 165
+          config_padding: 0, 0
           config_timezone: America/Mexico_City
           # Recent Activity Plugin
           plugin_activity: yes
