@@ -15,15 +15,18 @@
 </div>
 
 ```js
+//Imports
 const Universe = require("/root/Simulations/Universe");
 const {Systems} = Universe.Systems.Galaxies.MilkyWay;
 const {Human} = Systems.Solar.Planets.Earth.Entities;
 
+//Create a new Human called Ashley
 const Ashley = new Human({
  name: "Ashley",
  pronouns: "She/Her"
 });
 
+//Asign data to Ashley
 Object.assign(Ashley, {
  nicknames: ["ashl3y", "ashl3ycodes", "Anshurii"],
  likes: ["Code", "Sleep", "Monster Energy", "Videogames"],
