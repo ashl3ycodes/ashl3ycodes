@@ -21,7 +21,7 @@ jobs:
           template: classic
           base: header, activity, repositories
           config_order: base.header, base.activity+community, activity, base.repositories, wakatime, languages
-          config_padding: 0, 0
+          config_padding: 0, 300
           config_timezone: America/Mexico_City
           # Recent Activity Plugin
           plugin_activity: yes
@@ -36,13 +36,13 @@ jobs:
           plugin_wakatime_languages_other: yes
           plugin_wakatime_limit: 1
           plugin_wakatime_repositories_visibility: all
-          plugin_wakatime_sections: time, projects, languages, editors, os
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: current
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           # Languages Plugin
           plugin_languages: yes
-          plugin_languages_limit: 3
+          plugin_languages_limit: 4
           plugin_languages_other: true
           plugin_languages_sections: most-used
           plugin_languages_details: lines, bytes-size
