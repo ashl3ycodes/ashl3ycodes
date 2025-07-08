@@ -122,8 +122,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#66cec6e</div>
-                                        <div class="message">Change name and description to spanish</div>
+                                        <div class="sha">#4da86b9</div>
+                                        <div class="message">Change strings to spanish</div>
                                     </div>
                                 </div>
                             </section>
