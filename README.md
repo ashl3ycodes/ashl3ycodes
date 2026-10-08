@@ -14,20 +14,16 @@
 	</a> -->
 </div>
 
-```js
+```ts
 //Imports
-const Universe = require("/root/Simulations/Universe");
+import Universe from "/root/Simulations/Universe";
 const {Systems} = Universe.Systems.Galaxies.MilkyWay;
 const {Human} = Systems.Solar.Planets.Earth.Entities;
 
 //Create a new Human called Ashley
-const Ashley = new Human({
+const Ashley: InstanceType<typeof Human> = {
  name: "Ashley",
- pronouns: "She/Her"
-});
-
-//Assign data to Ashley
-Object.assign(Ashley, {
+ pronouns: "She/Her",
  nicknames: ["ashl3y", "ashl3ycodes", "Anshurii"],
  likes: ["Code", "Sleep", "Monster Energy", "Videogames"],
  dislikes: ["Sleep", "Bugs", "Competitiveness"],
@@ -77,7 +73,7 @@ Object.assign(Ashley, {
    username: "ashl3ycodes"
   }
  }
-});
+};
 ```
 
 <div align="center" style="display: block">
