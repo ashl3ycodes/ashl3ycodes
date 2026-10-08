@@ -23,7 +23,7 @@ const Ashley: InstanceType<typeof Human> = {
  name: "Ashley",
  pronouns: "She/Her",
  nicknames: ["ashl3y", "ashl3ycodes", "Anshurii"],
- likes: ["Code", "Sleep", "Monster Energy", "Videogames"],
+ likes: ["Code", "Sleep", "Monster Energy"],
  dislikes: ["Sleep", "Bugs", "Competitiveness"],
  skills: [
   "Backend Development",
@@ -31,36 +31,18 @@ const Ashley: InstanceType<typeof Human> = {
   "Bot Development",
   "Scripting & Automation",
   "Developer Tooling",
-  "Protocol Reverse Engineering",
-  "Pixel Art"
+  "Protocol Reverse Engineering"
  ],
  stack: {
   webDevelopment: {
    frontEnd: ["CSS", "HTML", "JavaScript"],
    backEnd: ["TypeScript", "Node.js"]
   },
-  softwareDevelopment: ["Bash", "C++", "Go", "Java", "Lua", "Python"],
-  botDevelopment: ["Discord.js", "Sapphire", "TypeScript",
-                   "Node.js", "SQLite", "MongoDB"],
-  desktop: ["Hyprland", "QML", "Quickshell", "Wayland", "systemd"]
+  softwareDevelopment: ["Bash", "C++", "Go", "Lua", "Python"],
+  botDevelopment: ["Sapphire", "TypeScript", "SQLite"]
  },
- creative: {
-  pixelArt: ["Aseprite"],
-  occasionally: {
-   imageEditing: ["ImageMagick", "Photopea"],
-   videoEditing: ["FFmpeg"],
-   audioEditing: ["Audacity"]
-  }
- },
- currentProjects: [
-  "Xyra - all-in-one Discord bot (TypeScript, Sapphire, SQLite)",
-  "nvimquest - interactive terminal course for Neovim (Python)",
-  "ridedaemon - CFMoto phone-mirroring protocol library (Go)",
-  "ridiculous.nvim - feedback and progression plugin for Neovim (Lua)"
- ],
  tools: {
   ides: ["Neovim", "IntelliJ IDEA"],
-  software: ["Aseprite", "Git", "GitHub"],
   os: {
    linux: "EndeavourOS",
    windows: "Windows 11"
