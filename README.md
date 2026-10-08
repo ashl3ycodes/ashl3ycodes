@@ -15,12 +15,10 @@
 </div>
 
 ```ts
-//Imports
 import Universe from "/root/Simulations/Universe";
 const {Systems} = Universe.Systems.Galaxies.MilkyWay;
 const {Human} = Systems.Solar.Planets.Earth.Entities;
 
-//Create a new Human called Ashley
 const Ashley: InstanceType<typeof Human> = {
  name: "Ashley",
  pronouns: "She/Her",
