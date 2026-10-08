@@ -25,11 +25,8 @@ const Ashley: InstanceType<typeof Human> = {
  nicknames: ["ashl3y", "ashl3ycodes", "Anshurii"],
  likes: ["Code", "Sleep", "Monster Energy"],
  dislikes: ["Sleep", "Bugs", "Competitiveness"],
- skills: [
-  "Backend Development",
-  "Frontend Development",
-  "Bot Development",
-  "Scripting & Automation"
+ skills: ["Backend Development", "Frontend Development",
+   "Bot Development","Scripting & Automation"
  ],
  stack: {
   webDevelopment: {
