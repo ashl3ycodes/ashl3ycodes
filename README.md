@@ -29,9 +29,7 @@ const Ashley: InstanceType<typeof Human> = {
   "Backend Development",
   "Frontend Development",
   "Bot Development",
-  "Scripting & Automation",
-  "Developer Tooling",
-  "Protocol Reverse Engineering"
+  "Scripting & Automation"
  ],
  stack: {
   webDevelopment: {
