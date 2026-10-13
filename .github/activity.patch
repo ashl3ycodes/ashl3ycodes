@@ -1,0 +1,35 @@
+diff --git a/source/plugins/activity/index.mjs b/source/plugins/activity/index.mjs
+index fcebc86..5116c1b 100644
+--- a/source/plugins/activity/index.mjs
++++ b/source/plugins/activity/index.mjs
+@@ -48,6 +48,30 @@ export default async function({login, data, rest, q, account, imports}, {enabled
+           const timestamp = new Date(created_at)
+           if (!imports.filters.repo(repo, skipped))
+             return null
++          //Events API no longer includes commits in push payloads nor full pull requests (since 2025-10), fetch them back
++          try {
++            const [owner, name] = repo.split("/")
++            if ((type === "PushEvent") && (!payload.commits)) {
++              //Skip pushes whose head was rewritten away (force-push), their commits are no longer part of the repository history
++              const {status} = (await rest.repos.compareCommitsWithBasehead({owner, repo: name, basehead: `${payload.head}...${payload.ref.replace(/^refs\/(heads|tags)\//, "")}`, per_page: 1})).data
++              if (!["ahead", "identical"].includes(status))
++                return null
++              const commit = ({sha, commit: {message, author: {email}}}) => ({sha, message, author: {email}})
++              try {
++                payload.commits = (await rest.repos.compareCommitsWithBasehead({owner, repo: name, basehead: `${payload.before}...${payload.head}`})).data.commits.map(commit)
++              }
++              catch {
++                payload.commits = [commit((await rest.repos.getCommit({owner, repo: name, ref: payload.head})).data)]
++              }
++              payload.size = payload.commits.length
++            }
++            if ((payload.pull_request) && (!payload.pull_request.user))
++              payload.pull_request = (await rest.pulls.get({owner, repo: name, pull_number: payload.pull_request.number})).data
++          }
++          catch (error) {
++            console.debug(`metrics/compute/${login}/plugins > activity > skipped ${type} on ${repo}: ${error}`)
++            return null
++          }
+           switch (type) {
+             //Commented on a commit
+             case "CommitCommentEvent": {

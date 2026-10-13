@@ -9,9 +9,20 @@ jobs:
     permissions:
       contents: write
     steps:
+      # The activity plugin crashes since the Events API dropped commits and pull request details from its payloads,
+      # so run metrics from a pinned checkout with .github/activity.patch applied on top of the official prebuilt image
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: lowlighter/metrics
+          ref: 366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+          path: .metrics
+      - run: |
+          git -C .metrics apply ../.github/activity.patch
+          printf 'FROM ghcr.io/lowlighter/metrics@sha256:0a24a23b769873639e7d7d3bebce0aade41ded920f8bfd74650328f4c4967b48\nCOPY source/plugins/activity/index.mjs /metrics/source/plugins/activity/index.mjs\n' > .metrics/Dockerfile
       - name: General
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
+        uses: ./.metrics
         with:
           filename: general-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
