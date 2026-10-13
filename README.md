@@ -49,7 +49,8 @@ const Ashley: InstanceType<typeof Human> = {
  },
  contact: {
   discord: {
-   username: "ashl3ycodes"
+   username: "ashl3ycodes",
+   community: null
   }
  }
 };
