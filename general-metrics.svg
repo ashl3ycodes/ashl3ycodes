@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="722" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="801" class="">
     <defs>
         <style/>
     </defs>
@@ -317,16 +317,16 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 581kb of code in 102 edited files across 41 commits</small>
+                <small>estimation from 581kb of code in 103 edited files across 42 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="199.7402763321547" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="199.7402763321547" y="0" width="57.43842271980881" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="257.1786990519635" y="0" width="42.58987182907537" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="299.7685708810389" y="0" width="160.2314291189611" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="199.73051979770196" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="199.73051979770196" y="0" width="57.43561707659821" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="257.1661368743002" y="0" width="42.58779147973638" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="299.75392835403653" y="0" width="160.24607164596344" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
