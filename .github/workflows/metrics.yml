@@ -60,6 +60,3 @@ jobs:
           plugin_languages_categories: data, markup, programming
           plugin_languages_recent_categories: data, markup, programming
           plugin_languages_recent_days: 7
-          # Lines Plugin
-          plugin_lines: yes
-          plugin_lines_delay: 30
