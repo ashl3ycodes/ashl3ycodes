@@ -43,10 +43,7 @@ const Ashley: InstanceType<typeof Human> = {
  tools: {
   ides: ["Neovim", "IntelliJ IDEA"],
   os: {
-   linux: {
-    OS: "Arch Linux",
-    compositor: "Hyprland"
-   },
+   linux: "Arch Linux",
    windows: "Windows 11"
   }
  },
