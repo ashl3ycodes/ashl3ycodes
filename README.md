@@ -15,12 +15,10 @@
 </div>
 
 ```ts
-//Imports
 import Universe from "/root/Simulations/Universe";
 const {Systems} = Universe.Systems.Galaxies.MilkyWay;
 const {Human} = Systems.Solar.Planets.Earth.Entities;
 
-//Assign elements to Ashley
 const Ashley: InstanceType<typeof Human> = {
  name: "Ashley",
  pronouns: "She/Her",
@@ -28,20 +26,27 @@ const Ashley: InstanceType<typeof Human> = {
  likes: ["Code", "Sleep", "Monster Energy"],
  dislikes: ["Sleep", "Bugs", "Competitiveness"],
  skills: ["Backend Development", "Frontend Development",
-   "Bot Development","Scripting & Automation"
+  "Bot Development","Scripting & Automation"
  ],
  stack: {
   webDevelopment: {
    frontEnd: ["CSS", "HTML", "JavaScript"],
    backEnd: ["TypeScript", "Node.js"]
   },
-  softwareDevelopment: ["Bash", "C++", "Go", "Lua", "Python"],
-  botDevelopment: ["Sapphire", "TypeScript", "SQLite"]
+  softwareDevelopment: ["C", "C++", "Lua", "Python",
+   "Bash", "Java", "Go", "C#", "QML", "TypeScript"
+  ],
+  botDevelopment: ["Discord.js", "Sapphire",
+   "TypeScript", "Node.js", "SQLite", "MongoDB"
+  ]
  },
  tools: {
   ides: ["Neovim", "IntelliJ IDEA"],
   os: {
-   linux: "EndeavourOS",
+   linux: {
+    OS: "Arch Linux",
+    compositor: "Hyprland"
+   },
    windows: "Windows 11"
   }
  },
