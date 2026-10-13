@@ -61,131 +61,43 @@ const Ashley: InstanceType<typeof Human> = {
 <div align="center" style="display: block">
 	<!-- https://github.com/tandpfun/skill-icons#readme -->
 	<h3 align="center">Languages, technologies and tools that I usually use.</h3>
-	<a href="https://archlinux.org/">
-		<img src="./src/images/icons/archlinux.png" height="24" width="24" alt="Arch Linux"/>
-	</a>
-	<a href="https://www.aseprite.org/">
-		<img src="./src/images/icons/aseprite.png" height="24" width="24" alt="Aseprite"/>
-	</a>
-	<a href="https://www.audacityteam.org/">
-		<img src="./src/images/icons/audacity.png" height="24" width="24" alt="Audacity"/>
-	</a>
-	<a href="https://www.gnu.org/software/bash/">
-		<img src="./src/images/icons/bash.png" height="24" width="24" alt="Bash"/>
-	</a>
-	<a href="https://isocpp.org/">
-		<img src="https://skillicons.dev/icons?i=cpp&theme=dark&perline=1" height="24" width="24" alt="C++"/>
-	</a>
-	<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-		<img src="https://skillicons.dev/icons?i=css&theme=dark&perline=1" height="24" width="24" alt="CSS"/>
-	</a>
-	<a href="https://discord.com/">
-		<img src="https://skillicons.dev/icons?i=discord&theme=dark&perline=1" height="24" width="24" alt="Discord"/>
-	</a>
-	<a href="https://discord.js.org/docs/">
-		<img src="./src/images/icons/djs.png" height="24" width="24" alt="discord.js"/>
-	</a>
-	<a href="https://ffmpeg.org/">
-		<img src="./src/images/icons/ffmpeg.png" height="24" width="24" alt="FFmpeg"/>
-	</a>
-	<a href="https://git-scm.com/">
-		<img src="https://skillicons.dev/icons?i=git&theme=dark&perline=1" height="24" width="24" alt="Git"/>
-	</a>
-	<a href="https://github.com">
-		<img src="./src/images/icons/github.png" height="24" width="24" alt="GitHub"/>
-	</a>
-	<a href="https://go.dev/">
-		<img src="https://skillicons.dev/icons?i=go&theme=dark&perline=1" height="24" width="24" alt="Go"/>
-	</a>
-	<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-		<img src="https://skillicons.dev/icons?i=html&theme=dark&perline=1" height="24" width="24" alt="HTML"/>
-	</a>
-	<a href="https://www.jetbrains.com/idea/">
-		<img src="./src/images/icons/intellij.png" height="24" width="24" alt="IntelliJ IDEA"/>
-	</a>
-	<a href="https://www.java.com/">
-		<img src="./src/images/icons/java.png" height="24" width="24" alt="Java"/>
-	</a>
-	<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-		<img src="https://skillicons.dev/icons?i=js&theme=dark&perline=1" height="24" width="24" alt="JavaScript"/>
-	</a>
-	<a href="https://www.linux.org/pages/download/">
-		<img src="https://skillicons.dev/icons?i=linux&theme=dark&perline=1" height="24" width="24" alt="Linux"/>
-	</a>
-	<a href="https://www.lua.org/">
-		<img src="https://skillicons.dev/icons?i=lua&theme=dark&perline=1" height="24" width="24" alt="Lua"/>
-	</a>
-	<a href="https://www.markdownguide.org/">
-		<img src="./src/images/icons/markdown.png" height="24" width="24" alt="Markdown"/>
-	</a>
-	<a href="https://www.mongodb.com/">
-		<img src="./src/images/icons/mongodb.png" height="24" width="24" alt="MongoDB"/>
-	</a>
-	<a href="https://neovim.io/">
-		<img src="https://skillicons.dev/icons?i=neovim&theme=dark&perline=1" height="24" width="24" alt="Neovim"/>
-	</a>
-	<a href="https://nodejs.org/">
-		<img src="https://skillicons.dev/icons?i=nodejs&theme=dark&perline=1" height="24" width="24" alt="Node.js"/>
-	</a>
-	<a href="https://www.photopea.com/">
-		<img src="./src/images/icons/photopea.png" height="24" width="24" alt="Photopea"/>
-	</a>
-	<a href="https://www.python.org/">
-		<img src="https://skillicons.dev/icons?i=py&theme=dark&perline=1" height="24" width="24" alt="Python"/>
-	</a>
-	<a href="https://doc.qt.io/qt-6/qmlapplications.html">
-		<img src="https://skillicons.dev/icons?i=qt&theme=dark&perline=1" height="24" width="24" alt="QML"/>
-	</a>
-	<a href="https://regexr.com/">
-		<img src="https://skillicons.dev/icons?i=regex&theme=dark&perline=1" height="24" width="24" alt="Regex"/>
-	</a>
-	<a href="https://www.sqlite.org/index.html">
-		<img src="./src/images/icons/sqlite.png" height="24" width="24" alt="SQLite"/>
-	</a>
-	<a href="https://stackoverflow.com">
-		<img src="./src/images/icons/stackoverflow.png" height="24" width="24" alt="Stack Overflow"/>
-	</a>
-	<a href="https://www.typescriptlang.org/">
-		<img src="https://skillicons.dev/icons?i=ts&theme=dark&perline=1" height="24" width="24" alt="TypeScript"/>
-	</a>
-	<a href="https://www.microsoft.com/software-download/windows11">
-		<img src="./src/images/icons/windows.png" height="24" width="24" alt="Windows 11"/>
-	</a>
+	<img src="./src/images/icons/archlinux.png" height="24" width="24" alt="Arch Linux"/>
+	<img src="./src/images/icons/bash.png" height="24" width="24" alt="Bash"/>
+	<img src="https://skillicons.dev/icons?i=cpp&theme=dark&perline=1" height="24" width="24" alt="C++"/>
+	<img src="https://skillicons.dev/icons?i=css&theme=dark&perline=1" height="24" width="24" alt="CSS"/>
+	<img src="./src/images/icons/djs.png" height="24" width="24" alt="discord.js"/>
+	<img src="https://skillicons.dev/icons?i=git&theme=dark&perline=1" height="24" width="24" alt="Git"/>
+	<img src="./src/images/icons/github.png" height="24" width="24" alt="GitHub"/>
+	<img src="https://skillicons.dev/icons?i=go&theme=dark&perline=1" height="24" width="24" alt="Go"/>
+	<img src="https://skillicons.dev/icons?i=html&theme=dark&perline=1" height="24" width="24" alt="HTML"/>
+	<img src="./src/images/icons/intellij.png" height="24" width="24" alt="IntelliJ IDEA"/>
+	<img src="./src/images/icons/java.png" height="24" width="24" alt="Java"/>
+	<img src="https://skillicons.dev/icons?i=js&theme=dark&perline=1" height="24" width="24" alt="JavaScript"/>
+	<img src="https://skillicons.dev/icons?i=linux&theme=dark&perline=1" height="24" width="24" alt="Linux"/>
+	<img src="https://skillicons.dev/icons?i=lua&theme=dark&perline=1" height="24" width="24" alt="Lua"/>
+	<img src="./src/images/icons/markdown.png" height="24" width="24" alt="Markdown"/>
+	<img src="./src/images/icons/mongodb.png" height="24" width="24" alt="MongoDB"/>
+	<img src="https://skillicons.dev/icons?i=neovim&theme=dark&perline=1" height="24" width="24" alt="Neovim"/>
+	<img src="https://skillicons.dev/icons?i=nodejs&theme=dark&perline=1" height="24" width="24" alt="Node.js"/>
+	<img src="https://skillicons.dev/icons?i=py&theme=dark&perline=1" height="24" width="24" alt="Python"/>
+	<img src="https://skillicons.dev/icons?i=regex&theme=dark&perline=1" height="24" width="24" alt="Regex"/>
+	<img src="./src/images/icons/sqlite.png" height="24" width="24" alt="SQLite"/>
+	<img src="https://skillicons.dev/icons?i=ts&theme=dark&perline=1" height="24" width="24" alt="TypeScript"/>
+	<img src="./src/images/icons/windows.png" height="24" width="24" alt="Windows 11"/>
 </div>
 
 <div align="center" style="display: block">
 	<!-- https://github.com/tandpfun/skill-icons#readme -->
 	<h3 align="center">Of all those tools, these are the ones I use the most:</h3>
-	<a href="https://archlinux.org/">
-		<img src="./src/images/icons/archlinux.png" height="24" width="24" alt="Arch Linux"/>
-	</a>
-	<a href="https://www.aseprite.org/">
-		<img src="./src/images/icons/aseprite.png" height="24" width="24" alt="Aseprite"/>
-	</a>
-	<a href="https://discord.js.org/docs/">
-		<img src="./src/images/icons/djs.png" height="24" width="24" alt="discord.js"/>
-	</a>
-	<a href="https://git-scm.com/">
-		<img src="https://skillicons.dev/icons?i=git&theme=dark&perline=1" height="24" width="24" alt="Git"/>
-	</a>
-	<a href="https://go.dev/">
-		<img src="https://skillicons.dev/icons?i=go&theme=dark&perline=1" height="24" width="24" alt="Go"/>
-	</a>
-	<a href="https://www.linux.org/pages/download/">
-		<img src="https://skillicons.dev/icons?i=linux&theme=dark&perline=1" height="24" width="24" alt="Linux"/>
-	</a>
-	<a href="https://www.lua.org/">
-		<img src="https://skillicons.dev/icons?i=lua&theme=dark&perline=1" height="24" width="24" alt="Lua"/>
-	</a>
-	<a href="https://neovim.io/">
-		<img src="https://skillicons.dev/icons?i=neovim&theme=dark&perline=1" height="24" width="24" alt="Neovim"/>
-	</a>
-	<a href="https://nodejs.org/">
-		<img src="https://skillicons.dev/icons?i=nodejs&theme=dark&perline=1" height="24" width="24" alt="Node.js"/>
-	</a>
-	<a href="https://www.typescriptlang.org/">
-		<img src="https://skillicons.dev/icons?i=ts&theme=dark&perline=1" height="24" width="24" alt="TypeScript"/>
-	</a>
+	<img src="./src/images/icons/archlinux.png" height="24" width="24" alt="Arch Linux"/>
+	<img src="./src/images/icons/djs.png" height="24" width="24" alt="discord.js"/>
+	<img src="https://skillicons.dev/icons?i=git&theme=dark&perline=1" height="24" width="24" alt="Git"/>
+	<img src="https://skillicons.dev/icons?i=go&theme=dark&perline=1" height="24" width="24" alt="Go"/>
+	<img src="https://skillicons.dev/icons?i=linux&theme=dark&perline=1" height="24" width="24" alt="Linux"/>
+	<img src="https://skillicons.dev/icons?i=lua&theme=dark&perline=1" height="24" width="24" alt="Lua"/>
+	<img src="https://skillicons.dev/icons?i=neovim&theme=dark&perline=1" height="24" width="24" alt="Neovim"/>
+	<img src="https://skillicons.dev/icons?i=nodejs&theme=dark&perline=1" height="24" width="24" alt="Node.js"/>
+	<img src="https://skillicons.dev/icons?i=ts&theme=dark&perline=1" height="24" width="24" alt="TypeScript"/>
 </div>
 
 <div align="center" style="text-align: center">
