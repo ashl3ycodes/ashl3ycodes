@@ -67,7 +67,7 @@ const Ashley: InstanceType<typeof Human> = {
 	<img src="https://skillicons.dev/icons?i=css&theme=dark&perline=1" height="24" width="24" alt="CSS"/>
 	<img src="./src/images/icons/djs.png" height="24" width="24" alt="discord.js"/>
 	<img src="https://skillicons.dev/icons?i=git&theme=dark&perline=1" height="24" width="24" alt="Git"/>
-	<img src="./src/images/icons/github.png" height="24" width="24" alt="GitHub"/>
+	<img src="https://skillicons.dev/icons?i=github&theme=dark&perline=1" height="24" width="24" alt="GitHub"/>
 	<img src="https://skillicons.dev/icons?i=go&theme=dark&perline=1" height="24" width="24" alt="Go"/>
 	<img src="https://skillicons.dev/icons?i=html&theme=dark&perline=1" height="24" width="24" alt="HTML"/>
 	<img src="./src/images/icons/hyprland.png" height="24" width="24" alt="Hyprland"/>
@@ -76,15 +76,15 @@ const Ashley: InstanceType<typeof Human> = {
 	<img src="https://skillicons.dev/icons?i=js&theme=dark&perline=1" height="24" width="24" alt="JavaScript"/>
 	<img src="https://skillicons.dev/icons?i=linux&theme=dark&perline=1" height="24" width="24" alt="Linux"/>
 	<img src="https://skillicons.dev/icons?i=lua&theme=dark&perline=1" height="24" width="24" alt="Lua"/>
-	<img src="./src/images/icons/markdown.png" height="24" width="24" alt="Markdown"/>
-	<img src="./src/images/icons/mongodb.png" height="24" width="24" alt="MongoDB"/>
+	<img src="https://skillicons.dev/icons?i=md&theme=dark&perline=1" height="24" width="24" alt="Markdown"/>
+	<img src="https://skillicons.dev/icons?i=mongodb&theme=dark&perline=1" height="24" width="24" alt="MongoDB"/>
 	<img src="https://skillicons.dev/icons?i=neovim&theme=dark&perline=1" height="24" width="24" alt="Neovim"/>
 	<img src="https://skillicons.dev/icons?i=nodejs&theme=dark&perline=1" height="24" width="24" alt="Node.js"/>
 	<img src="https://skillicons.dev/icons?i=py&theme=dark&perline=1" height="24" width="24" alt="Python"/>
 	<img src="https://skillicons.dev/icons?i=qt&theme=dark&perline=1" height="24" width="24" alt="QML"/>
 	<img src="https://skillicons.dev/icons?i=regex&theme=dark&perline=1" height="24" width="24" alt="Regex"/>
 	<img src="./src/images/icons/sapphire.png" height="24" width="24" alt="Sapphire"/>
-	<img src="./src/images/icons/sqlite.png" height="24" width="24" alt="SQLite"/>
+	<img src="https://skillicons.dev/icons?i=sqlite&theme=dark&perline=1" height="24" width="24" alt="SQLite"/>
 	<img src="https://skillicons.dev/icons?i=ts&theme=dark&perline=1" height="24" width="24" alt="TypeScript"/>
 	<img src="./src/images/icons/windows.png" height="24" width="24" alt="Windows 11"/>
 </div>
