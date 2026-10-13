@@ -95,13 +95,12 @@ const Ashley: InstanceType<typeof Human> = {
 	<!-- https://github.com/tandpfun/skill-icons#readme -->
 	<h3 align="center">Of all those tools, these are the ones I use the most:</h3>
 	<img src="./src/images/icons/archlinux.png" height="24" width="24" alt="Arch Linux"/>
-	<img src="./src/images/icons/djs.png" height="24" width="24" alt="discord.js"/>
 	<img src="https://skillicons.dev/icons?i=git&theme=dark&perline=1" height="24" width="24" alt="Git"/>
-	<img src="https://skillicons.dev/icons?i=go&theme=dark&perline=1" height="24" width="24" alt="Go"/>
 	<img src="https://skillicons.dev/icons?i=linux&theme=dark&perline=1" height="24" width="24" alt="Linux"/>
-	<img src="https://skillicons.dev/icons?i=lua&theme=dark&perline=1" height="24" width="24" alt="Lua"/>
 	<img src="https://skillicons.dev/icons?i=neovim&theme=dark&perline=1" height="24" width="24" alt="Neovim"/>
 	<img src="https://skillicons.dev/icons?i=nodejs&theme=dark&perline=1" height="24" width="24" alt="Node.js"/>
+	<img src="https://skillicons.dev/icons?i=qt&theme=dark&perline=1" height="24" width="24" alt="QML"/>
+	<img src="./src/images/icons/sapphire.png" height="24" width="24" alt="Sapphire"/>
 	<img src="https://skillicons.dev/icons?i=ts&theme=dark&perline=1" height="24" width="24" alt="TypeScript"/>
 </div>
 
